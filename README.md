@@ -7,6 +7,12 @@ Founded in 2016, Row Health is a medical insurance company serving thousands of 
 
 The ERD can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/ERD.md). An Excel workbook can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/Row%20Health%20Data.xlsx). A Jupyter Notebook with EDA completed in Python, utilizing Pandas, can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/c99580226f8eecbb4127696215eb2edf0f78d7ea/artifacts/rowhealth-camp-performance-eda.ipynb)
 
+## Interactive Tableau Dashboard
+An interactive *Tableau Public* dashboard can be found [here](https://public.tableau.com/views/RowHealthCampaigns/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). This dashboard focuses on Campaign performance metrics such as CTR, Signup Rate, Cost-per-Signup - enabling stakeholders to garner insights on the selected types of campaigns. 
+
+![row-dash](https://github.com/user-attachments/assets/57c13a51-5b57-45e7-be77-2821e52846d6)
+</br></br>
+
 ## Summary of Insights
 <details>
 <summary>Stakeholder Initial Questions</summary>
