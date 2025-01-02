@@ -22,7 +22,7 @@ An interactive *Tableau Public* dashboard can be found [here](https://public.tab
   4. What do claims look like for customers acquired through certain campaign groupings?
 </details>
 
-Conducting an analysis on 49k+ `customers`, `claims`, `campaigns` records for the years 2019-2023, key insights in the following areas were made:
+Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for the years 2019-2023, key insights in the following areas were made:
 ### 1) Campaign Costs & Signups
 - There is no significant relationship between the cost of a campaign and the number of signups.
 - The top 5 highest-signup campaigns *(see section 2)* have an avg. cost-per-signup of $0.59; 199% less than the overall avg. of $203.91.
