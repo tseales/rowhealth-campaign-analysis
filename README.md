@@ -5,12 +5,12 @@ Founded in 2016, Row Health is a medical insurance company serving thousands of 
 </br></br>
 **Note:** *24 campaigns did not have any associated customers. Analysis was done on 33/57 campaigns.*
 
-The ERD can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/ERD.md). An Excel workbook can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/Row%20Health%20Data.xlsx). A Jupyter Notebook with EDA completed in Python, utilizing Pandas, can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/c99580226f8eecbb4127696215eb2edf0f78d7ea/artifacts/rowhealth-camp-performance-eda.ipynb)
+The ERD can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/ERD.md). An Excel workbook can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/Row%20Health%20Data.xlsx). A Jupyter Notebook with EDA completed in Python, utilizing Pandas, can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/c99580226f8eecbb4127696215eb2edf0f78d7ea/artifacts/rowhealth-camp-performance-eda.ipynb).
 
 ## Interactive Tableau Dashboard
-An interactive *Tableau Public* dashboard can be found [here](https://public.tableau.com/views/RowHealthCampaigns/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). This dashboard focuses on Campaign performance metrics such as CTR, Signup Rate, Cost-per-Signup - enabling stakeholders to garner insights on the selected types of campaigns. 
+An interactive *Tableau Public* dashboard can be found [here](https://public.tableau.com/views/RowHealthCampaigns/Dashboard3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). This dashboard focuses on enabling stakeholders to garner insights on campaign-types of interest, providing a comparative view amongst dispararte campaign performance metrics. 
 
-![row-dash](https://github.com/user-attachments/assets/57c13a51-5b57-45e7-be77-2821e52846d6)
+![tableau](https://github.com/user-attachments/assets/61e95a27-132b-40ac-924b-7cf88ba125a6)
 </br></br>
 
 ## Summary of Insights
@@ -29,9 +29,9 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
 - Campaigns of type 'Covid Awareness' & 'Offer Announcement' have the largest average cost-per-signup, at $537.25 and $411.94 respectively - surpassing the overall average of $203.91. In relation to costs, 'Covid Awareness' is 2nd highest, at $6.6K; 'Offer Announcement' in 5th, at $4.2K.
   - 7 Campaigns (21.2%) are above the avg. cost/signup.
   - 26 Campaigns (78.8%) are below the avg. cost/signup.
-- 'Customer Testimonial' is the highest-costing campaign with a total of $7.2K &ndash; 4th in total number of signups. The following chart depicts types of campaigns with their associated costs & signups, from most-to-least expensive:
+- 'Customer Testimonial' is the highest-costing campaign having a total of $7.2K, with 'Covid Awareness' following at $6.7K &ndash; placing 4th and 5th in total number of signups, respectively:
 
-![campaign-cost-vs-signup-barchart](https://github.com/user-attachments/assets/bf71ff58-3376-459f-9a20-5c0c2c886f6e)
+![CT cost-signups](https://github.com/user-attachments/assets/6477a9c5-d416-4eff-b2d7-bd06b5a6cc37)
 </br></br>
 
 ### 2) Campaign Signups & Plans
@@ -81,7 +81,7 @@ Understanding why customers are opting for a specific plan over others, will pro
 </details>
 <details>
 <summary>2. Reduce campaigns related to types 'Customer Testimonial' and 'Covid Awareness'.</summary></br>
-As the costs of these campaigns are relatively high, without a large return in number-of-signups received, reallocating funds to more lucrative types will ensure a healthier cost:signup ratio. Further investigation into the context of what guides a customer to signup with an associated type of campaign is also advised. Campaign types of 'Product Promotion' is recommended as an option for receiving reallocated funds, as this currently has the highest number of signups, and is associated with below avg. claim amounts. 
+As the costs of these campaigns are relatively high, without a large return in number-of-signups received, reallocating funds to more lucrative types will ensure a healthier cost:signup ratio. Further investigation into the context of what guides a customer to signup with an associated type of campaign is also advised. Campaign type of 'Product Promotion' is recommended as an option for receiving reallocated funds, as this currently has the highest number of signups, and is associated with below avg. claim amounts. 
 </details>
 <details>
 <summary>3. For a goal of reducing campaigns that are indicative of, or associated with, subsequent high claims: Consider reducing 'Health Awareness' campaigns.</summary></br>
@@ -89,5 +89,5 @@ This type of campaign is associated with the highest frequency of claims made, a
 </details>
 <details>
 <summary>4. Gather & incorporate any data the Marketing team may have on the duration of campaigns.</summary></br>
-This will allow for a more robust historical analysis, providing a renewed vigor in the paths of analysis.
+This will allow for a more robust historical analysis, providing a renewed vigor in the paths of analysis while contributing to a significant increase in the ability of providing data-driven recommendations.
 </details>
