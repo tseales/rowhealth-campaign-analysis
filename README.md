@@ -10,7 +10,7 @@ The ERD can be found [here](https://github.com/tseales/rowhealth-campaign-analys
 ## Interactive Tableau Dashboard
 An interactive *Tableau Public* dashboard can be found [here](https://public.tableau.com/views/RowHealthCampaigns/Dashboard3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). This dashboard focuses on enabling stakeholders to garner insights on campaign-types of interest, providing a comparative view amongst dispararte campaign performance metrics. 
 
-![tableau](https://github.com/user-attachments/assets/61e95a27-132b-40ac-924b-7cf88ba125a6)
+![tableau](https://github.com/user-attachments/assets/616af507-edf3-4bd3-801c-4a07485c933d)
 </br></br>
 
 ## Summary of Insights
