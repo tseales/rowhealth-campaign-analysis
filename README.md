@@ -14,7 +14,7 @@ An Excel workbook can be found [here](https://github.com/tseales/rowhealth-campa
 ## Interactive Tableau Dashboard
 An interactive *Tableau Public* dashboard can be found [here](https://public.tableau.com/views/RowHealthCampaigns/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). This dashboard focuses on enabling stakeholders to garner insights on campaign-types of interest, providing a comparative view amongst disparate campaign performance metrics. 
 
-![tableau2](https://github.com/user-attachments/assets/486e0c9b-5c17-43ce-af73-1ad294380649)
+![tableau3](https://github.com/user-attachments/assets/8b2466d5-98b6-455c-95a7-c55f4910edcf)
 </br></br>
 
 ## Summary of Insights
@@ -89,4 +89,4 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
     - This type of campaign is associated with the highest frequency of claims made, although it does come 2nd in total number-of-signups. If this recommendation is being considered, more investigation into the categorical associations of this type is strongly advised, as 2/3 of its associations have an above average click through rate.
 
 4. Gather & incorporate any data the Marketing team may have on the duration of campaigns.
-    - This will allow for a more robust historical analysis, providing a renewed vigor in the paths of analysis while contributing to a significant increase in the ability of providing data-driven recommendations.
+    - This will allow for a more robust historical analysis on campaign performance, providing a renewed vigor in the paths of analysis while contributing to a significant increase in the ability of providing data-driven recommendations.
