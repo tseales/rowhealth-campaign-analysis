@@ -5,12 +5,16 @@ Founded in 2016, Row Health is a medical insurance company serving thousands of 
 </br></br>
 **Note:** *24 campaigns did not have any associated customers. Analysis was done on 33/57 campaigns.*
 
-The ERD can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/ERD.md). An Excel workbook can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/Row%20Health%20Data.xlsx). A Jupyter Notebook with EDA completed in Python, utilizing Pandas, can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/c99580226f8eecbb4127696215eb2edf0f78d7ea/artifacts/rowhealth-camp-performance-eda.ipynb).
+An Excel workbook can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/Row%20Health%20Data.xlsx). A Jupyter Notebook with EDA completed in Python, utilizing Pandas, can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/c99580226f8eecbb4127696215eb2edf0f78d7ea/artifacts/rowhealth-camp-performance-eda.ipynb).
+
+## [ERD](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/ERD.md)
+![erd](https://github.com/user-attachments/assets/e580f84c-ac7d-4f61-b841-08d1a31ef322)
+</br></br>
 
 ## Interactive Tableau Dashboard
-An interactive *Tableau Public* dashboard can be found [here](https://public.tableau.com/views/RowHealthCampaigns/Dashboard3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). This dashboard focuses on enabling stakeholders to garner insights on campaign-types of interest, providing a comparative view amongst dispararte campaign performance metrics. 
+An interactive *Tableau Public* dashboard can be found [here](https://public.tableau.com/views/RowHealthCampaigns/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). This dashboard focuses on enabling stakeholders to garner insights on campaign-types of interest, providing a comparative view amongst disparate campaign performance metrics. 
 
-![tableau](https://github.com/user-attachments/assets/616af507-edf3-4bd3-801c-4a07485c933d)
+![tableau2](https://github.com/user-attachments/assets/486e0c9b-5c17-43ce-af73-1ad294380649)
 </br></br>
 
 ## Summary of Insights
@@ -59,7 +63,7 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
 
 ### 3) Frequency of Claims
 - 'Customer Testimonial' types of campaigns encapsulate the highest avg. claim amounts, at $457.35. This is followed by 'Policy Information' and 'Product Promotion', at $248.57 & $236.55, respectively.
-  - Digging deeper into the association of campaign types & categories, the following *Type:Category* groupings have above average </br> (> $267.43) claim amounts:
+  - Digging deeper into the association of campaign types & categories, the following *Type:Category* groupings have above average (greater than $267.43) claim amounts:
     - Customer Testimonial : Compare Health Coverage
     - Covid Awareness : Compare Health Coverage
     - Health Tips : Tailored Health Plans
@@ -75,19 +79,14 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
 </br></br>
 
 ## Recommendations
-<details>
-<summary>1. Investigate why customers are primarily opting for the 'Silver' plan, over other choices.</summary></br>
-Understanding why customers are opting for a specific plan over others, will provide further insights into the actions taken by customers and provide further direction on the constitution of plans, depending on the strategy of the Marketing team. What criterion encourage a customer to select a specific plan - monthly costs, deductibles, etc.?
-</details>
-<details>
-<summary>2. Reduce campaigns related to types 'Customer Testimonial' and 'Covid Awareness'.</summary></br>
-As the costs of these campaigns are relatively high, without a large return in number-of-signups received, reallocating funds to more lucrative types will ensure a healthier cost:signup ratio. Further investigation into the context of what guides a customer to signup with an associated type of campaign is also advised. Campaign type of 'Product Promotion' is recommended as an option for receiving reallocated funds, as this currently has the highest number of signups, and is associated with below avg. claim amounts. 
-</details>
-<details>
-<summary>3. For a goal of reducing campaigns that are indicative of, or associated with, subsequent high claims: Consider reducing 'Health Awareness' campaigns.</summary></br>
-This type of campaign is associated with the highest frequency of claims made, although it does come 2nd in total number-of-signups. If this recommendation is being considered, more investigation into the categorical associations of this type is strongly advised, as 2/3 of its associations have an above average click through rate.
-</details>
-<details>
-<summary>4. Gather & incorporate any data the Marketing team may have on the duration of campaigns.</summary></br>
-This will allow for a more robust historical analysis, providing a renewed vigor in the paths of analysis while contributing to a significant increase in the ability of providing data-driven recommendations.
-</details>
+1. Investigate why customers are primarily opting for the 'Silver' plan, over other choices.
+    - Understanding why customers are opting for a specific plan over others, will provide further insights into the actions taken by customers and provide further direction on the constitution of plans, depending on the strategy of the Marketing team. What criterion encourage a customer to select a specific plan - monthly costs, deductibles, etc.?
+
+2. Reduce campaigns related to types 'Customer Testimonial' and 'Covid Awareness' as the costs of these campaigns are relatively high, without a large return in number-of-signups received.
+    - Reallocating funds to more lucrative types will ensure a healthier cost:signup ratio. Further investigation into the context of what guides a customer to signup with an associated type of campaign is also advised. Campaign type of 'Product Promotion' is recommended as an option for receiving reallocated funds, as this currently has the highest number of signups, and is associated with below avg. claim amounts. 
+
+3. For a goal of reducing campaigns that are indicative of, or associated with, subsequent high claims: Consider reducing 'Health Awareness' campaigns.
+    - This type of campaign is associated with the highest frequency of claims made, although it does come 2nd in total number-of-signups. If this recommendation is being considered, more investigation into the categorical associations of this type is strongly advised, as 2/3 of its associations have an above average click through rate.
+
+4. Gather & incorporate any data the Marketing team may have on the duration of campaigns.
+    - This will allow for a more robust historical analysis, providing a renewed vigor in the paths of analysis while contributing to a significant increase in the ability of providing data-driven recommendations.
