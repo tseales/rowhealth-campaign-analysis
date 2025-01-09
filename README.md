@@ -35,7 +35,7 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
   - 26 Campaigns (78.8%) are below the avg. cost/signup.
 - 'Customer Testimonial' is the highest-costing campaign having a total of $7.2K, with 'Covid Awareness' following at $6.7K &ndash; placing 4th and 5th in total number of signups, respectively:
 
-![CT cost-signups](https://github.com/user-attachments/assets/34fb9386-9726-4050-a645-a9dbc0dcf9e1)
+![CT cost-signups](https://github.com/user-attachments/assets/49d2ae70-b134-414e-96ed-4507c0a93577)
 </br></br>
 
 ### 2) Campaign Signups & Plans
