@@ -33,7 +33,7 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
 - Campaigns of type 'Covid Awareness' & 'Offer Announcement' have the largest average cost-per-signup, at $537.25 and $411.94 respectively - surpassing the overall average of $203.91. In relation to costs, 'Covid Awareness' is 2nd highest, at $6.6K; 'Offer Announcement' in 5th, at $4.2K.
   - 7 Campaigns (21.2%) are above the avg. cost/signup.
   - 26 Campaigns (78.8%) are below the avg. cost/signup.
-- 'Customer Testimonial' is the highest-costing campaign having a total of $7.2K, with 'Covid Awareness' following at $6.7K &ndash; placing 4th and 5th in total number of signups, respectively:
+- 'Customer Testimonial' is the highest-costing campaign having a total of $7.2K, with 'Covid Awareness' following at $6.7K &ndash; placing 4th and 5th in total number of signups, respectively. A comparison amongst *Campaign Type* can be found below:
 
 ![CT cost-signups2](https://github.com/user-attachments/assets/37feba54-d356-4c17-8dd0-8718a62b5fa1)
 </br></br>
