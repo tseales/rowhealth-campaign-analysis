@@ -4,6 +4,8 @@
 Founded in 2016, Row Health is a medical insurance company serving thousands of customers throughout the United States. In 2019, they launched a new set of marketing campaigns spanning topics like Health Awareness, Covid Awareness, and Health Tips. Now that they’re strategizing their marketing budget for the forthcoming year, the company would like to attain a better understanding of the effectiveness of these various types of campaigns, and how they relate to signups and subsequent patient claims. This project conducts a focused analysis on the aforementioned metrics, campaign costs, CTR, MoM & YoY frequency of claims. The garnered insights will allow the Marketing team to make advantageous data-driven decisions for increasing campaign effectiveness. 
 </br></br>
 **Note:** *24 campaigns did not have any associated customers. Analysis was done on 33/57 campaigns.*
+</br>
+**Note:** *Click on included images to enlarge.*
 
 An Excel workbook can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/f4ac1220566dfc81dff4621e1ab8e0c0d74618e0/artifacts/Row%20Health%20Data.xlsx). A Jupyter Notebook with EDA completed in Python, utilizing Pandas, can be found [here](https://github.com/tseales/rowhealth-campaign-analysis/blob/c99580226f8eecbb4127696215eb2edf0f78d7ea/artifacts/rowhealth-camp-performance-eda.ipynb).
 
@@ -14,7 +16,7 @@ An Excel workbook can be found [here](https://github.com/tseales/rowhealth-campa
 ## Interactive Tableau Dashboard
 An interactive *Tableau Public* dashboard can be found [here](https://public.tableau.com/views/RowHealthCampaigns/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). This dashboard focuses on enabling stakeholders to garner insights on campaign-types of interest, providing a comparative view amongst disparate campaign performance metrics. 
 
-![tableau3](https://github.com/user-attachments/assets/8b2466d5-98b6-455c-95a7-c55f4910edcf)
+![tableau3](https://github.com/user-attachments/assets/15edad38-e8cd-40b3-afaa-80fa40f3f314)
 </br></br>
 
 ## Summary of Insights
