@@ -74,11 +74,16 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
   - Of the top 10 groupings with the highest *total* claim amounts, 80% fell below the average, while the following 'Customer Testimonial' groupings did not:
     - Customer Testimonial : Compare Health Coverage *(Ranked 1st)*
     - Customer Testimonial : Preventive Care News *(Ranked 9th)*
-- There is a general uptick in claims throughout 2019-2021, likely due to the inception of the COVID-19 pandemic.
+- There is a general uptick in claims throughout 2019-2021, likely due to the inception of the COVID-19 pandemic (see Figure 1).
   - 'Health Awareness' has the highest YoY frequency of claims, while 'Offer Announcement' is consistently the lowest.
+- There is an observable pattern of increase in claims during the Feb–March timeframe, in most campaign types (see Figure 2).
 
+**Figure 1** </br>
 ![yrly freq](https://github.com/user-attachments/assets/36b00dc6-c51a-4b62-afac-29604387d8ed)
-</br></br>
+</br>
+**Figure 2**
+![Screenshot 2025-01-20 165021](https://github.com/user-attachments/assets/fe69b83f-e193-4e55-ae8d-70102b76f2db)
+</br>
 
 ## Recommendations
 1. **Investigate why customers are primarily opting for the 'Silver' plan, over other choices.**
