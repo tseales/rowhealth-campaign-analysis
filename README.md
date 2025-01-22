@@ -76,7 +76,7 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
     - Customer Testimonial : Preventive Care News *(Ranked 9th)*
 - There is a general uptick in claims throughout 2019-2021, likely due to the inception of the COVID-19 pandemic (see Figure 1).
   - 'Health Awareness' has the highest YoY frequency of claims, while 'Offer Announcement' is consistently the lowest.
-- There is an observable pattern of increase in claims during the Feb–March timeframe, in most campaign types (see Figure 2).
+- There is an observable pattern of increase in claims during the Feb–March timeframe, in most campaign types. Notably, there is high volatility in campaigns throughout Feb-Aug; campaigns having the highest claims - e.g., Product Promotion, Health Awareness - experiencing the most volatility (see Figure 2).
 
 **Figure 1** </br>
 ![yrly freq](https://github.com/user-attachments/assets/36b00dc6-c51a-4b62-afac-29604387d8ed)
@@ -90,10 +90,10 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
     - Understanding why customers are opting for a specific plan over others, will provide further insights into the actions taken by customers and provide further direction on the constitution of plans, depending on the strategy of the Marketing team. What criterion encourage a customer to select a specific plan - monthly costs, deductibles, etc.?
 
 2. **Reduce campaigns related to types 'Customer Testimonial' and 'Covid Awareness' as the costs of these campaigns are relatively high, without a large return in number-of-signups received.**
-    - Reallocating funds to more lucrative types will ensure a healthier cost:signup ratio. Further investigation into the context of what guides a customer to signup with an associated type of campaign is also advised. Campaign type of 'Product Promotion' is recommended as an option for receiving reallocated funds, as this currently has the highest number of signups, and is associated with below avg. claim amounts. 
+    - Reallocating funds to more lucrative types will ensure a healthier cost:signup ratio. Further investigation into the context of what guides a customer to signup with an associated type of campaign is also advised. Campaign type of 'Product Promotion' is recommended as an option for receiving reallocated funds, as this currently has the highest number of signups, and is associated with below avg. claim amounts. It is important to note that this campaign type is highly volatile during the Feb-Aug months, with most claims historically occurring in May. 
 
 3. **For a goal of reducing campaigns that are indicative of, or associated with, subsequent high claims: Consider reducing 'Health Awareness' campaigns.**
-    - This type of campaign is associated with the highest frequency of claims made, although it does come 2nd in total number-of-signups. If this recommendation is being considered, more investigation into the categorical associations of this type is strongly advised, as 2/3 of its associations have an above average click through rate.
+    - This type of campaign is associated with the highest frequency of claims made on a YoY basis, although it does come 2nd in total number-of-signups. If this recommendation is being considered, more investigation into the categorical associations of this type is strongly advised, as 2/3 of its associations have an above average click through rate.
 
 4. **Gather & incorporate any data the Marketing team may have on the duration of campaigns.**
     - This will allow for a more robust historical analysis on campaign performance, providing a renewed vigor in the paths of analysis while contributing to a significant increase in the ability of providing data-driven recommendations.
