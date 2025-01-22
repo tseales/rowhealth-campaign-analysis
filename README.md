@@ -82,8 +82,8 @@ Conducting an analysis on 66k+ `customers`, `claims`, `campaigns` records for th
 ![yrly freq](https://github.com/user-attachments/assets/36b00dc6-c51a-4b62-afac-29604387d8ed)
 </br>
 **Figure 2**
-![Screenshot 2025-01-20 165021](https://github.com/user-attachments/assets/fe69b83f-e193-4e55-ae8d-70102b76f2db)
-</br>
+![newmom](https://github.com/user-attachments/assets/082331e6-2b04-42b0-b964-b601df0e5d44)
+</br></br>
 
 ## Recommendations
 1. **Investigate why customers are primarily opting for the 'Silver' plan, over other choices.**
